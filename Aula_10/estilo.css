@@ -1,0 +1,62 @@
+@charset "UTF-8";
+@font-face{
+    font-family:"kdam";
+    src: url("fontes/KdamThmorPro-Regular.ttf") format("opentype");
+}
+
+/*Pagina index*/
+
+.index{
+    background: url("imagens/backdor.jpg");
+}
+.corpo{
+    background-color: rgb(1, 63, 63);
+
+}
+
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.logo{
+    border: 8px solid red;
+    box-shadow: 1px 1px 4px black;
+}
+.fig1 figcaption{
+    top: 0px;
+    background-color: rgb(#ff0000, #008000, #0000ff,0.4);
+}
+p{
+    
+    color:rgb(241, 130, 2);
+    font-family:"kdam";
+    font-size: 25pt;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h1{
+    font-family:"kdam";
+    font-size: 60pt;
+    text-align: center;
+    color: black;
+}
+h2{
+    font-family:"kdam";
+    font-size: 50pt ;
+    text-align: left;
+    text-align: center;
+    color: #ff0000;
+
+}
+/*Paginas dos jogos*/
+.txt{
+    font-size:15pt ;
+}
+.painel{
+    display: flex;
+}
+#ilus{
+    width: 1024px;
+    height: 576px;
+}
